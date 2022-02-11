@@ -1,7 +1,6 @@
 import streamlit as st
 
 
-from pandas_datareader import data # Not working
 import yfinance as yf #Using this as a tmp alternative
 import matplotlib.pyplot as plt
 import pandas as pd
