@@ -14,8 +14,9 @@ info = st.text_area("Share some information about you", "Put information here",
 age = st.number_input("Age", min_value=18, max_value=100, step=1)
 
 birth_date = st.date_input("Date of Birth", 
-                           min_value=datetime.date(1921, 1, 1),
-                           max_value=datetime.date(2022, 2, 11))
+                            value=datetime.date(2000,1,1),
+                            min_value=datetime.date(1921, 1, 1),
+                            max_value=datetime.date(2003, 12, 31))
 
 smoke = st.checkbox("Do you smoke?")
 genre = st.radio("Which movie genre do you like?",
@@ -40,7 +41,7 @@ if click:
     st.sidebar.write("You clicked the button")    
     
     
-col1, col2 = st.beta_columns(2)
+col1, col2 = st.columns(2)
 with col1:
     st.image("https://static.streamlit.io/examples/cat.jpg", width=300)
     st.button("Like cats")
