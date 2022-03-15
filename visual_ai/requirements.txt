@@ -1,6 +1,6 @@
 datarobot
 pandas
 matplotlib
-PIL
+Pillow
 base64
 
