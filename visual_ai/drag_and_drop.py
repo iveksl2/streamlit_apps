@@ -1,6 +1,5 @@
 import datarobot as dr
 import pandas as pd
-import seaborn as sns
 import matplotlib.pyplot as plt
 from datarobot.models.visualai import SampleImage, ImageActivationMap, ImageEmbedding
 import io
