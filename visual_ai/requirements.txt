@@ -2,5 +2,4 @@ datarobot
 pandas
 matplotlib
 Pillow
-base64
 
