@@ -14,10 +14,16 @@ from PIL import Image
 import streamlit as st
 
 st.set_page_config(page_title='Visual AI Image Drag and Drop')
-st.image('dr_logo.png', width=300)
-st.title('Visual AI Image Drag and Drop')
 
-dr.Client(config_path = "/Users/igor.veksler/.config/datarobot/drconfig.yaml")
+col1, col2 = st.columns([4,1])
+with col1:
+    st.title('Visual AI Image Drag and Drop')
+with col2:
+    st.image('dr_logo.png', width=200)
+
+# dr.Client(config_path = "/Users/igor.veksler/.config/datarobot/drconfig.yaml")
+dr.client(endpoint = st.secrets['endpoint'], token=st.secrets['token'])
+
 
 # https://docs.datarobot.com/en/docs/modeling/special-workflows/visual-ai/vai-predictions.html
 def image_to_base64(image: Image) -> str:
