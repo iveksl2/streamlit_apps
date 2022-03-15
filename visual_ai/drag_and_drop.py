@@ -22,7 +22,7 @@ with col2:
     st.image('dr_logo.png', width=200)
 
 # dr.Client(config_path = "/Users/igor.veksler/.config/datarobot/drconfig.yaml")
-dr.client(endpoint = st.secrets['endpoint'], token=st.secrets['token'])
+dr.Client(endpoint = st.secrets['endpoint'], token=st.secrets['token'])
 
 
 # https://docs.datarobot.com/en/docs/modeling/special-workflows/visual-ai/vai-predictions.html
