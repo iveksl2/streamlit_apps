@@ -18,7 +18,7 @@ col1, col2 = st.columns([4,1])
 with col1:
     st.title('Visual AI Image Drag and Drop')
 with col2:
-    st.image('visual_ai/dr_logo.png', width=200)
+    st.image('dr_logo.png', width=200)
 
 # dr.Client(config_path = "/Users/igor.veksler/.config/datarobot/drconfig.yaml")
 dr.Client(endpoint = st.secrets['endpoint'], token=st.secrets['token'])
