@@ -1,4 +1,5 @@
 import base64
+import os
 from typing import Dict
 import requests
 import pandas as pd
@@ -58,9 +59,11 @@ def image_to_base64(image: Image) -> str:
     return image_base64
 
 
-st.image("dr_logo.jpg", width=175)
+image_path = os.path.join(os.path.dirname(__file__), "dr_logo.jpg")
+st.image(image_path, width=175)
 
 st.title("Plant disease prediction")
+
 uploaded_img = st.file_uploader("Upload image")
 
 if uploaded_img is not None:
@@ -75,10 +78,7 @@ if uploaded_img is not None:
     b64_img = image_to_base64(img_resized)
     df = pd.DataFrame({IMAGE_COLUMN_NAME: [b64_img]})
 
-    class_predictions = make_prediction(df.to_string(index=False))
+    predictions = make_prediction(df.to_string(index=False))
 
-    # todo: give this more thought
-    best_pred = max(
-        class_predictions[0]["predictionValues"], key=lambda pred: pred["value"]
-    )
-    st.metric("Result", best_pred["label"], best_pred["value"])
+    max_pred = max(predictions[0]["predictionValues"], key=lambda pred: pred["value"])
+    st.metric("Result", max_pred["label"], max_pred["value"])
