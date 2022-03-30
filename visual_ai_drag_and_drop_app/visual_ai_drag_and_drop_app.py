@@ -1,4 +1,5 @@
 import base64
+import os
 from typing import Dict
 import requests
 import pandas as pd
@@ -8,7 +9,16 @@ from PIL import Image
 from typing import List, Dict
 
 
-from project_metadata import DEPLOYMENT_ID, API_URL, API_KEY, DATAROBOT_KEY, IMAGE_RESIZED_HEIGHT, IMAGE_RESIZED_WIDTH, IMAGE_COLUMN_NAME
+from project_metadata import (
+    DEPLOYMENT_ID,
+    API_URL,
+    API_KEY,
+    DATAROBOT_KEY,
+    IMAGE_RESIZED_HEIGHT,
+    IMAGE_RESIZED_WIDTH,
+    IMAGE_COLUMN_NAME,
+)
+
 
 def make_prediction(data: str) -> List[Dict]:
     """Uses the Prediction server to return class labels & probabilities given string representation of image
@@ -20,18 +30,17 @@ def make_prediction(data: str) -> List[Dict]:
         List[Dict]: List of Dictionaries with returned class predictions for every image
     """
     headers = {
-        'Content-Type': 'text/plain; charset=UTF-8',
-        'Authorization': 'Bearer {}'.format(API_KEY),
-        'DataRobot-Key': DATAROBOT_KEY,
-        }
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Authorization": "Bearer {}".format(API_KEY),
+        "DataRobot-Key": DATAROBOT_KEY,
+    }
     url = API_URL
     res = requests.post(
-         url,
-         data=data,
-         headers=headers,
+        url,
+        data=data,
+        headers=headers,
     )
-    return res.json()['data']
-
+    return res.json()["data"]
 
 
 def image_to_base64(image: Image) -> str:
@@ -45,32 +54,31 @@ def image_to_base64(image: Image) -> str:
         str: base64 text encoding of image
     """
     img_bytes = BytesIO()
-    image.save(img_bytes, 'jpeg', quality=90)
-    image_base64 = base64.b64encode(img_bytes.getvalue()).decode('utf-8')
+    image.save(img_bytes, "jpeg", quality=90)
+    image_base64 = base64.b64encode(img_bytes.getvalue()).decode("utf-8")
     return image_base64
 
-st.image('dr_logo.jpg', width=175)
 
-st.title('Plant disease prediction')
+image_path = os.path.join(os.path.dirname(__file__), "dr_logo.jpg")
+st.image(image_path, width=175)
+
+st.title("Plant disease prediction")
+
 uploaded_img = st.file_uploader("Upload image")
 
 if uploaded_img is not None:
     img = Image.open(uploaded_img)
-    
-    img_resized = img.resize((IMAGE_RESIZED_WIDTH,IMAGE_RESIZED_HEIGHT), Image.ANTIALIAS)
+
+    img_resized = img.resize(
+        (IMAGE_RESIZED_WIDTH, IMAGE_RESIZED_HEIGHT), Image.ANTIALIAS
+    )
     st.image(img_resized, "Uploaded image")
     st.write("Note: *This image has been resized to match training image dimensions*")
 
     b64_img = image_to_base64(img_resized)
-    df = pd.DataFrame({IMAGE_COLUMN_NAME: [b64_img]}) 
-    
-    class_predictions = make_prediction(df.to_string(index=False))
-    
-    #todo: give this more thought
-    best_pred = max(class_predictions[0]['predictionValues'], key=lambda pred: pred['value'])
-    st.metric('Result',best_pred['label'],best_pred['value'])
-    
-    
-    
+    df = pd.DataFrame({IMAGE_COLUMN_NAME: [b64_img]})
 
+    predictions = make_prediction(df.to_string(index=False))
 
+    max_pred = max(predictions[0]["predictionValues"], key=lambda pred: pred["value"])
+    st.metric("Result", max_pred["label"], max_pred["value"])
