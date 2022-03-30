@@ -5,6 +5,8 @@ API_URL = 'https://cfds-ccm-prod.orm.datarobot.com/predApi/v1.0/deployments/'+DE
 API_KEY = st.secrets['API_KEY']
 DATAROBOT_KEY = st.secrets['DATAROBOT_KEY']
 
-# Resized Image Proportions to match training 
+# Resized Image Proportions to match training. In the future these may change
 IMAGE_RESIZED_HEIGHT = 224
 IMAGE_RESIZED_WIDTH = 224
+
+IMAGE_COLUMN_NAME = 'image'
