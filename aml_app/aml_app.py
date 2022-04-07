@@ -113,18 +113,19 @@ st.image(image_path, width=175)
 
 st.title("Anti Money Laundering")
 
-st.write(
-    """
-<h4 style='margin-top:-0px'>Description</h4>
-This application is designed to assist in the adjudication of money laundering alerts.
-<br>
-Users can toggle criticality thresholds between DataRobot predictions and anomaly scores. 
-<br>
-If the checkbox is enabled, the resulting dataset is filtered to records where both scores are above or equal to the thresholds. 
-<br><br>
-""",
-    unsafe_allow_html=True,
-)
+with st.expander("See description"):
+    st.write(
+        """
+    <h4 style='margin-top:-0px'>Description</h4>
+    This application is designed to assist in the adjudication of money laundering alerts.
+    <br>
+    Users can toggle criticality thresholds between DataRobot predictions and anomaly scores. 
+    <br>
+    If the checkbox is enabled, the resulting dataset is filtered to records where both scores are above or equal to the thresholds. 
+    <br><br>
+    """,
+        unsafe_allow_html=True,
+    )
 
 col1, col2, col3 = st.columns([3, 3, 1])
 
