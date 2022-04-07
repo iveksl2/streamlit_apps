@@ -12,6 +12,7 @@ from project_metadata import (
     DATASET_ID,
     DEPLOYMENT_ID,
     ANOMALY_DEPLOYMENT_ID,
+    TOKEN
 )
 
 @st.cache(allow_output_mutation=True)
@@ -106,6 +107,7 @@ def get_datarobot_prediction_explanations(
     return explanations
 
 
+dr.Client(endpoint = 'https://app.datarobot.com/api/v2', token=TOKEN)
 image_path = os.path.join(os.path.dirname(__file__), "dr_logo.jpg")
 st.image(image_path, width=175)
 

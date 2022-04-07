@@ -10,5 +10,7 @@ DATASET_ID = st.secrets["DATASET_ID"]
 
 ANOMALY_DEPLOYMENT_ID = st.secrets["ANOMALY_DEPLOYMENT_ID"] 
 
+TOKEN = st.secrets["token"] 
+
 
 
