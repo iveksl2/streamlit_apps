@@ -48,3 +48,5 @@ with col1:
 with col2:
     st.image("https://static.streamlit.io/examples/dog.jpg", width=355)
     st.button("Like dogs")
+
+
