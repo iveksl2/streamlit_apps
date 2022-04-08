@@ -60,7 +60,7 @@ def image_to_base64(image: Image) -> str:
         str: base64 text encoding of image
     """
     img_bytes = BytesIO()
-    image.save(img_bytes, "jpeg", quality=90)
+    image.save(img_bytes, "png", quality=90)
     image_base64 = base64.b64encode(img_bytes.getvalue()).decode("utf-8")
     return image_base64
 
@@ -96,7 +96,7 @@ st.image(image_path, width=175)
 
 st.title("Plant disease prediction")
 
-uploaded_img = st.file_uploader("Upload Image - Note: This application expects JPEG file format")
+uploaded_img = st.file_uploader("Upload Image")
 
 if uploaded_img is not None:
     img = Image.open(uploaded_img)

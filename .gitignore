@@ -1,2 +1,3 @@
 *secrets.toml*
 *.pyc*
+*.DS_Store*
