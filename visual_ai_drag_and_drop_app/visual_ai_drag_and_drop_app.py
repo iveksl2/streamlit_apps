@@ -87,7 +87,7 @@ def prep_score_render_output(img: Image) -> None:
     img_df = prep_image_for_scoring(img)
     pred_df = make_prediction(img_df)
     chrt = render_prediction_barchart(pred_df)
-    st.write("Most likly class is",  pred_df.loc[0, 'label'], ' - the model prediction is', pred_df.loc[0, 'value'])
+    st.write("Most likely class is",  pred_df.loc[0, 'label'], ' - the model prediction is', pred_df.loc[0, 'value'])
     st.write(chrt)
     return
 
@@ -122,7 +122,7 @@ if uploaded_img is not None:
         height=350,
     )
     
-    st.write("Most likly class is",  pred_df.loc[0, 'label'], ' - the model prediction is', pred_df.loc[0, 'value'])
+    st.write("Most likely class is",  pred_df.loc[0, 'label'], ' - the model prediction is', pred_df.loc[0, 'value'])
     st.write(chrt)
     
 st.header('Example Images')
