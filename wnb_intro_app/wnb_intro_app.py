@@ -160,7 +160,7 @@ if uploaded_img is not None:
     heatmap = make_gradcam_heatmap(img_array, model, last_conv_layer_name)
     cam_path = save_and_display_gradcam(img_path, heatmap, caption = 'elephant_activation')
 
-    st.session_state.logged_data.append([wandb.Image(opened_img), top_predictions[0][1], wandb.Image(cam_path)])
+    #st.session_state.logged_data.append([wandb.Image(opened_img), top_predictions[0][1], wandb.Image(cam_path)])
     #st.write(st.session_state.logged_data)
     #st.write(st.session_state.count)
 

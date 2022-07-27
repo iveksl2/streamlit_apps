@@ -1,5 +1,5 @@
 pandas
 matplotlib
 Pillow
-tensorflow
+tensorflow==2.8.0
 
