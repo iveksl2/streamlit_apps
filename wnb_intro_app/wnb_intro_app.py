@@ -185,9 +185,14 @@ if uploaded_img is not None:
 
     # this youtube video was cash money -> https://www.youtube.com/watch?v=21y14JbQo8A
     #img_path =  f'{uploaded_img.name}'
+
+    opened_img.save(f'{uploaded_img.name}')
+
     img_path = os.path.join(os.path.dirname(__file__), f'{uploaded_img.name}') # tmp change
+
     st.write(img_path)
-    img_array = preprocess_input(get_img_array(uploaded_img, size= img_size))
+    st.write(os.getcwd())
+    img_array = preprocess_input(get_img_array(img_path, size= img_size))
     #img_array = preprocess_input(get_img_array2(uploaded_img, size= img_size))
 
 	# Make model
@@ -207,8 +212,8 @@ if uploaded_img is not None:
     heatmap = make_gradcam_heatmap(img_array, model, last_conv_layer_name)
 
     # tmp change
-    cam_path = save_and_display_gradcam(uploaded_img, heatmap, caption = 'elephant_activation')
-    #cam_path = save_and_display_gradcam(img_path, heatmap, caption = 'elephant_activation')
+    #cam_path = save_and_display_gradcam(uploaded_img, heatmap, caption = 'elephant_activation')
+    cam_path = save_and_display_gradcam(img_path, heatmap, caption = 'elephant_activation')
     #cam_path = save_and_display_gradcam2(uploaded_img, heatmap, caption = 'elephant_activation')
 
     #st.session_state.logged_data.append([wandb.Image(opened_img), top_predictions[0][1], wandb.Image(cam_path)])
