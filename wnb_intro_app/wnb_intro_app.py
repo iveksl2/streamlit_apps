@@ -140,7 +140,8 @@ if uploaded_img is not None:
     st.image(opened_img)
 
     # this youtube video was cash money -> https://www.youtube.com/watch?v=21y14JbQo8A
-    img_path =  f'{uploaded_img.name}'
+    #img_path =  f'{uploaded_img.name}'
+    img_path = os.path.join(os.path.dirname(__file__), f'{uploaded_img.name}') # tmp change
     img_array = preprocess_input(get_img_array(img_path, size= img_size))
 
 	# Make model
