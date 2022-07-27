@@ -1,0 +1,22 @@
+{
+    "os": "macOS-12.3-arm64-arm-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-07-15T04:02:00.371734",
+    "startedAt": "2022-07-15T04:01:59.654518",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "wnb_intro_app.py",
+    "codePath": "wnb_intro_app/wnb_intro_app.py",
+    "git": {
+        "remote": "https://github.com/iveksl2/streamlit_apps.git",
+        "commit": "20523ca959bc156f07a0af1582aba855a0e4a998"
+    },
+    "email": null,
+    "root": "/Users/iveksl2/dev/streamlit_apps",
+    "host": "Igors-MacBook-Pro-2.local",
+    "username": "iveksl2",
+    "executable": "/Users/iveksl2/miniforge3/envs/mlp/bin/python3.8"
+}

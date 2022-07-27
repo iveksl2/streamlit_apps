@@ -1,0 +1,372 @@
+2022-07-14 22:06:14,829 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:06:14,834 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:06:14,837 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:06:14,839 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:06:14,841 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:06:14,846 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220614-29avhf3p/logs/debug.log
+2022-07-14 22:06:14,849 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220614-29avhf3p/logs/debug-internal.log
+2022-07-14 22:06:14,869 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:06:14,871 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:06:14,872 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:06:14,982 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:06:14,984 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:06:14,985 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:06:14,986 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:06:14,987 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:06:14,988 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220614-1l7sjado/logs/debug.log
+2022-07-14 22:06:14,989 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220614-1l7sjado/logs/debug-internal.log
+2022-07-14 22:06:14,991 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:06:14,993 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:06:14,994 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:08:17,739 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:08:17,755 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:08:17,756 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:08:17,757 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:08:17,758 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:08:17,760 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220817-29rwmnaf/logs/debug.log
+2022-07-14 22:08:17,761 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220817-29rwmnaf/logs/debug-internal.log
+2022-07-14 22:08:17,762 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:08:17,763 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:08:17,765 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:08:24,392 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:08:24,421 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:08:24,422 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:08:24,423 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:08:24,424 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:08:24,426 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220824-1b6x3yvw/logs/debug.log
+2022-07-14 22:08:24,427 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220824-1b6x3yvw/logs/debug-internal.log
+2022-07-14 22:08:24,429 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:08:24,430 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:08:24,431 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:08:54,675 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:08:54,677 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:08:54,678 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:08:54,679 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:08:54,680 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:08:54,681 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220854-3c1wwi39/logs/debug.log
+2022-07-14 22:08:54,682 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220854-3c1wwi39/logs/debug-internal.log
+2022-07-14 22:08:54,684 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:08:54,686 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:08:54,687 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:08:57,651 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:08:57,672 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:08:57,673 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:08:57,674 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:08:57,675 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:08:57,676 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220857-3csey099/logs/debug.log
+2022-07-14 22:08:57,678 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220857-3csey099/logs/debug-internal.log
+2022-07-14 22:08:57,680 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:08:57,681 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:08:57,682 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:09:13,340 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:09:13,356 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:09:13,358 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:09:13,360 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:09:13,361 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:09:13,363 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220913-nw0h34jd/logs/debug.log
+2022-07-14 22:09:13,364 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220913-nw0h34jd/logs/debug-internal.log
+2022-07-14 22:09:13,366 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:09:13,367 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:09:13,368 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:09:13,477 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:09:13,479 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:09:13,480 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:09:13,482 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:09:13,483 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:09:13,484 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220913-1o40hnar/logs/debug.log
+2022-07-14 22:09:13,485 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220913-1o40hnar/logs/debug-internal.log
+2022-07-14 22:09:13,486 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:09:13,487 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:09:13,489 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:09:37,531 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:09:37,538 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:09:37,543 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:09:37,546 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:09:37,547 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:09:37,549 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220937-2ay4ksyl/logs/debug.log
+2022-07-14 22:09:37,550 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_220937-2ay4ksyl/logs/debug-internal.log
+2022-07-14 22:09:37,552 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:09:37,553 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:09:37,554 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:13:52,347 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:13:52,368 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:13:52,370 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:13:52,371 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:13:52,372 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:13:52,374 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_221352-3d7mn2r1/logs/debug.log
+2022-07-14 22:13:52,375 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_221352-3d7mn2r1/logs/debug-internal.log
+2022-07-14 22:13:52,376 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:13:52,378 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:13:52,379 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:13:57,511 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:13:57,514 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:13:57,516 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:13:57,518 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:13:57,523 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:13:57,526 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_221357-14v6kxau/logs/debug.log
+2022-07-14 22:13:57,548 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_221357-14v6kxau/logs/debug-internal.log
+2022-07-14 22:13:57,550 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:13:57,552 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:13:57,554 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:21:02,800 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:21:02,823 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:21:02,825 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:21:02,827 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:21:02,829 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:21:02,831 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222102-2c90buuk/logs/debug.log
+2022-07-14 22:21:02,833 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222102-2c90buuk/logs/debug-internal.log
+2022-07-14 22:21:02,835 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:21:02,837 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:21:02,838 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:21:30,074 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:21:30,076 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:21:30,078 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:21:30,080 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:21:30,085 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:21:30,087 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222130-m667o40s/logs/debug.log
+2022-07-14 22:21:30,108 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222130-m667o40s/logs/debug-internal.log
+2022-07-14 22:21:30,110 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:21:30,111 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:21:30,113 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:21:43,491 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:21:43,525 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:21:43,526 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:21:43,527 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:21:43,529 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:21:43,530 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222143-3vlvu20j/logs/debug.log
+2022-07-14 22:21:43,531 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222143-3vlvu20j/logs/debug-internal.log
+2022-07-14 22:21:43,532 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:21:43,534 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:21:43,535 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:21:43,640 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:21:43,642 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:21:43,643 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:21:43,645 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:21:43,646 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:21:43,647 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222143-2sdmvlnp/logs/debug.log
+2022-07-14 22:21:43,648 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222143-2sdmvlnp/logs/debug-internal.log
+2022-07-14 22:21:43,650 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:21:43,652 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:21:43,653 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:21:55,370 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:21:55,375 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:21:55,376 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:21:55,378 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:21:55,379 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:21:55,381 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222155-1n392gtk/logs/debug.log
+2022-07-14 22:21:55,382 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222155-1n392gtk/logs/debug-internal.log
+2022-07-14 22:21:55,385 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:21:55,387 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:21:55,389 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:26:14,904 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:26:14,922 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:26:14,924 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:26:14,925 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:26:14,926 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:26:14,928 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222614-2lgi0qoz/logs/debug.log
+2022-07-14 22:26:14,929 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222614-2lgi0qoz/logs/debug-internal.log
+2022-07-14 22:26:14,931 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:26:14,932 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:26:14,934 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:26:44,164 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:26:44,166 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:26:44,167 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:26:44,169 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:26:44,171 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:26:44,172 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222644-37ddx1cq/logs/debug.log
+2022-07-14 22:26:44,174 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222644-37ddx1cq/logs/debug-internal.log
+2022-07-14 22:26:44,176 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:26:44,177 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:26:44,179 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:26:52,123 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:26:52,157 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:26:52,159 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:26:52,161 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:26:52,162 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:26:52,165 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222652-3drydjc4/logs/debug.log
+2022-07-14 22:26:52,167 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222652-3drydjc4/logs/debug-internal.log
+2022-07-14 22:26:52,169 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:26:52,170 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:26:52,173 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:27:52,913 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:27:52,951 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:27:52,953 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:27:52,955 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:27:52,956 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:27:52,958 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222752-3ofvmwdv/logs/debug.log
+2022-07-14 22:27:52,959 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222752-3ofvmwdv/logs/debug-internal.log
+2022-07-14 22:27:52,961 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:27:52,963 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:27:52,966 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:27:53,076 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:27:53,077 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:27:53,079 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:27:53,080 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:27:53,081 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:27:53,083 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222753-1imhbuxo/logs/debug.log
+2022-07-14 22:27:53,084 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222753-1imhbuxo/logs/debug-internal.log
+2022-07-14 22:27:53,086 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:27:53,088 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:27:53,090 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:28:07,900 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:28:07,929 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:28:07,930 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:28:07,932 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:28:07,933 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:28:07,935 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222807-1czo0yiq/logs/debug.log
+2022-07-14 22:28:07,937 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222807-1czo0yiq/logs/debug-internal.log
+2022-07-14 22:28:07,938 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:28:07,940 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:28:07,942 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 23:01:08,308 INFO    MainThread:75777 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-07-14 23:01:08,346 INFO    MainThread:75777 [wandb_run.py:_restore():1834] restore
+2022-07-14 23:01:08,360 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29126662
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:09,019 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29126662
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:09,281 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29126662
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,036 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,147 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,255 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,363 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,472 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,581 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,693 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,808 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:15,924 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:21,041 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:26,162 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:31,281 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:36,403 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:41,520 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:41,651 INFO    MainThread:75777 [wandb_run.py:_restore():1834] restore

@@ -1,0 +1,23 @@
+2022-07-27 16:29:51,444 INFO    ScriptRunner.scriptThread:10977 [wandb_setup.py:_flush():76] Configure stats pid to 10977
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': 'wnb_intro_app.py'}
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220727_162951-3eihac5a/logs/debug.log
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220727_162951-3eihac5a/logs/debug-internal.log
+2022-07-27 16:29:51,445 INFO    ScriptRunner.scriptThread:10977 [wandb_init.py:init():495] calling init triggers
+2022-07-27 16:29:51,446 INFO    ScriptRunner.scriptThread:10977 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-27 16:29:51,446 INFO    ScriptRunner.scriptThread:10977 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-27 16:30:09,536 INFO    MainThread:10977 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-07-27 16:30:09,537 INFO    MainThread:10977 [wandb_run.py:_restore():1834] restore
+2022-07-27 16:30:09,542 INFO    MainThread:10977 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 700
+  total_bytes: 700
+}
+
+2022-07-27 16:30:14,651 INFO    MainThread:10977 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-27 16:30:14,754 INFO    MainThread:10977 [wandb_run.py:_restore():1834] restore

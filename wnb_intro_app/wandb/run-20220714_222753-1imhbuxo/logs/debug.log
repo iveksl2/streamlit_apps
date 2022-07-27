@@ -1,0 +1,152 @@
+2022-07-14 22:27:53,076 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:27:53,077 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:27:53,079 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:27:53,080 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:27:53,081 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:27:53,083 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222753-1imhbuxo/logs/debug.log
+2022-07-14 22:27:53,084 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222753-1imhbuxo/logs/debug-internal.log
+2022-07-14 22:27:53,086 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:27:53,088 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:27:53,090 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 22:28:07,900 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Configure stats pid to 75777
+2022-07-14 22:28:07,929 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/.config/wandb/settings
+2022-07-14 22:28:07,930 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/settings
+2022-07-14 22:28:07,932 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-14 22:28:07,933 INFO    ScriptRunner.scriptThread:75777 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'wnb_intro_app/wnb_intro_app.py', 'program': '/Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wnb_intro_app.py'}
+2022-07-14 22:28:07,935 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():461] Logging user logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222807-1czo0yiq/logs/debug.log
+2022-07-14 22:28:07,937 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:_log_setup():462] Logging internal logs to /Users/iveksl2/dev/streamlit_apps/wnb_intro_app/wandb/run-20220714_222807-1czo0yiq/logs/debug-internal.log
+2022-07-14 22:28:07,938 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():495] calling init triggers
+2022-07-14 22:28:07,940 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():498] wandb.init called with sweep_config: {}
+config: {}
+2022-07-14 22:28:07,942 INFO    ScriptRunner.scriptThread:75777 [wandb_init.py:init():543] wandb.init() called when a run is still active
+2022-07-14 23:01:08,308 INFO    MainThread:75777 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-07-14 23:01:08,346 INFO    MainThread:75777 [wandb_run.py:_restore():1834] restore
+2022-07-14 23:01:08,360 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29126662
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:09,019 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29126662
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:09,281 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29126662
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,036 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,147 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,255 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,363 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29126662
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,472 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,581 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,693 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:10,808 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 38
+  artifact_count: 22
+}
+pusher_stats {
+  uploaded_bytes: 29139866
+  total_bytes: 29139866
+  deduped_bytes: 9561863
+}
+
+2022-07-14 23:01:15,924 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:21,041 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:26,162 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:31,281 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:36,403 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:41,520 INFO    MainThread:75777 [wandb_run.py:_on_finish():1991] got exit ret: None
+2022-07-14 23:01:41,651 INFO    MainThread:75777 [wandb_run.py:_restore():1834] restore
