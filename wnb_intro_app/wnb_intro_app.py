@@ -33,6 +33,16 @@ def get_img_array(img_path, size):
     array = np.expand_dims(array, axis=0)
     return array
 
+def get_img_array2(img, size):
+    # `img` is a PIL image of size 299x299
+    img = keras.preprocessing.image.load_img(img, target_size=size)
+    # `array` is a float32 Numpy array of shape (299, 299, 3)
+    array = keras.preprocessing.image.img_to_array(img)
+    # We add a dimension to transform our array into a "batch"
+    # of size (1, 299, 299, 3)
+    array = np.expand_dims(array, axis=0)
+    return array
+
 
 def make_gradcam_heatmap(img_array, model, last_conv_layer_name, pred_index=None):
     # First, we create a model that maps the input image to the activations
@@ -71,6 +81,40 @@ def make_gradcam_heatmap(img_array, model, last_conv_layer_name, pred_index=None
 def save_and_display_gradcam(img_path, heatmap, cam_path="cam.jpg", alpha=0.4, caption='tmp'):
     # Load the original image
     img = keras.preprocessing.image.load_img(img_path)
+    img = keras.preprocessing.image.img_to_array(img)
+    
+    # Rescale heatmap to a range 0-255
+    heatmap = np.uint8(255 * heatmap)
+
+    # Use jet colormap to colorize heatmap
+    jet = cm.get_cmap("jet")
+
+    # Use RGB values of the colormap
+    jet_colors = jet(np.arange(256))[:, :3]
+    jet_heatmap = jet_colors[heatmap]
+
+    # Create an image with RGB colorized heatmap
+    jet_heatmap = keras.preprocessing.image.array_to_img(jet_heatmap)
+    jet_heatmap = jet_heatmap.resize((img.shape[1], img.shape[0]))
+    jet_heatmap = keras.preprocessing.image.img_to_array(jet_heatmap)
+
+    # Superimpose the heatmap on original image
+    superimposed_img = jet_heatmap * alpha + img
+    superimposed_img = keras.preprocessing.image.array_to_img(superimposed_img)
+
+    # Save the superimposed image
+    superimposed_img.save(cam_path)
+
+    #randb.log({'img2': [wandb.Image(cam_path, caption=caption)]})
+
+    # Display Grad CAM
+    #display(Image(cam_path))
+    st.image(cam_path)
+    return superimposed_img 
+
+def save_and_display_gradcam2(img, heatmap, cam_path="cam.jpg", alpha=0.4, caption='tmp'):
+    # Load the original image
+    img = keras.preprocessing.image.load_img(img)
     img = keras.preprocessing.image.img_to_array(img)
     
     # Rescale heatmap to a range 0-255
@@ -143,7 +187,7 @@ if uploaded_img is not None:
     #img_path =  f'{uploaded_img.name}'
     img_path = os.path.join(os.path.dirname(__file__), f'{uploaded_img.name}') # tmp change
     st.write(img_path)
-    img_array = preprocess_input(get_img_array(img_path, size= img_size))
+    img_array = preprocess_input(get_img_array2(uploaded_img, size= img_size))
 
 	# Make model
     model = model_builder(weights= "imagenet")
@@ -160,7 +204,10 @@ if uploaded_img is not None:
     st.write('Activation Heatmap:')
     # Generate class activation heatmap
     heatmap = make_gradcam_heatmap(img_array, model, last_conv_layer_name)
-    cam_path = save_and_display_gradcam(img_path, heatmap, caption = 'elephant_activation')
+
+    # tmp change
+    #cam_path = save_and_display_gradcam(img_path, heatmap, caption = 'elephant_activation')
+    cam_path = save_and_display_gradcam2(uploaded_img, heatmap, caption = 'elephant_activation')
 
     #st.session_state.logged_data.append([wandb.Image(opened_img), top_predictions[0][1], wandb.Image(cam_path)])
     #st.write(st.session_state.logged_data)
