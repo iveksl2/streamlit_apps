@@ -19,9 +19,9 @@ from tensorflow import keras
 #from IPython.display import Image, display
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
-import wandb
+#import wandb
 
-wandb.init(project = 'Streamlit_Images')
+#wandb.init(project = 'Streamlit_Images')
 
 def get_img_array(img_path, size):
     # `img` is a PIL image of size 299x299
