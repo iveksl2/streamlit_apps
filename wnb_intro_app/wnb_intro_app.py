@@ -186,9 +186,10 @@ if uploaded_img is not None:
     # this youtube video was cash money -> https://www.youtube.com/watch?v=21y14JbQo8A
     #img_path =  f'{uploaded_img.name}'
 
-    opened_img.save(f'{uploaded_img.name}')
 
     img_path = os.path.join(os.path.dirname(__file__), f'{uploaded_img.name}') # tmp change
+
+    opened_img.save(img_path)
 
     st.write(img_path)
     st.write(os.getcwd())
