@@ -189,10 +189,13 @@ if uploaded_img is not None:
 
     img_path = os.path.join(os.path.dirname(__file__), f'{uploaded_img.name}') # tmp change
 
+    # Streamlit reads the image into RAM, but need a filepath
     opened_img.save(img_path)
 
-    st.write(img_path)
-    st.write(os.getcwd())
+    # For debugging
+    #st.write(img_path)
+    #st.write(os.getcwd())
+
     img_array = preprocess_input(get_img_array(img_path, size= img_size))
     #img_array = preprocess_input(get_img_array2(uploaded_img, size= img_size))
 
