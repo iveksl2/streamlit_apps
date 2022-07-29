@@ -151,7 +151,7 @@ image_path = os.path.join(os.path.dirname(__file__), "wnb_logo.jpg")
 #image_path = "wnb_logo.jpg"
 st.image(image_path, width=175)
 
-st.title("Imagenet Scoring and Activation Maps")
+st.title("Image Scoring and Activation Maps")
 
 uploaded_img = st.file_uploader("Upload Image")
 
