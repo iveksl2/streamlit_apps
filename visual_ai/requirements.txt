@@ -1,5 +1,0 @@
-datarobot
-pandas
-matplotlib
-Pillow
-
